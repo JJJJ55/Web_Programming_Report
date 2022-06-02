@@ -1,0 +1,181 @@
+@import url();
+@font-face {
+    font-family: "카카오";
+    src: url(../font/KakaoRegular.ttf);
+}
+
+*{
+    font-family: "카카오";
+}
+
+a {
+    text-decoration: none;
+}
+
+#top_frame {
+    width: 850px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imsi-title {
+    color: #ff9d00;
+    font-weight: 700;
+    font-size: 3.2em;
+}
+
+.imsi-category {
+    margin-top: 10px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.imsi-text {
+    margin-top: 5px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: -0.1em;
+}
+
+.point {
+    font-weight: 900;
+    color: #ff9d00;
+}
+
+p:not(.imsi-category):not(.imsi-text){
+    margin: 0;
+    line-height: 60px;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.5);
+}
+
+body {
+    text-align: center;
+    background-image: url("../photo/카카오 배경화면3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 280px;
+    height: 50px;
+}
+
+.sub-frame {
+    position: relative;
+    width: 850px;
+    height: 580px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.imsi-left {
+    margin-top: 30px;
+    position: absolute;
+    left: 0;
+    width: 425px;
+    height: 540px;
+    border-right: 1px solid rgb(255, 187, 0);
+}
+
+.imsi-right {
+    margin-top: 30px;
+    position: absolute;
+    right: 0;
+    width: 425px;
+    height: 540px;
+}
+
+.copyright {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.imsi-left-content-frame {
+    width: 350px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.imsi-button {
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid #FEE500;
+    background-color: #FEE500;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 390px;
+    transition: 0.2s;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.imsi-button:hover {
+    border: 1px solid #ff9d00;
+    background-color: #ff9d00;
+}
+
+li { 
+    list-style: square;
+}
+
+#strong{
+    text-align: left; 
+    letter-spacing: -0.1em; 
+    text-shadow: 3px 3px 5px orange;
+    font-weight: bold;
+}
+
+#search{
+    position: absolute;
+    width: 420px;
+    height: 35px;
+    top: 5px;
+    left: 10px;
+    font-size: 15px;
+    border: 3px solid #0089ff;
+    border-radius: 3px;
+    letter-spacing: 0.1em;
+}
+#search:focus {
+    outline: none;
+}
+
+#s_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px 12px 0 0;
+    border: none;
+    width: 50px;
+    height: 43px;
+    background: #0089ff;
+    font-weight: bold;
+    cursor: pointer;
+}
+#s_box{
+    position: relative;
+    width: 500px;
+    height: 50px;
+    margin: 10px auto -15px;
+}
+#time_box{
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    font-weight: bold;
+}
+
+

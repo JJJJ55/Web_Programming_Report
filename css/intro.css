@@ -1,0 +1,87 @@
+@import url();
+
+@font-face {
+    font-family: "카카오";
+    src: url(../font/KakaoRegular.ttf);
+}
+
+*{
+    font-family: "카카오";
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    background-image: url("../photo/카카오 배경화면3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-top: 25px;
+    width: 280px;
+    height: 110px;
+}
+
+.sub-frame {
+    position: relative;
+    width: 850px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: -20px auto 0px;
+    padding-bottom: 10px;
+}
+
+#sub_image {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    transition: width 2s;
+}
+
+.copyright {
+    margin-top: 20px;
+    width: 500px;
+}
+
+#ceo{
+    border: 3px solid #FEE500;
+    border-collapse: collapse;
+    margin: 10px auto;
+    padding-bottom: 5px;
+}
+#ceo td, th{
+    border: 1px solid rgb(227, 222, 212);
+    width: 200px;
+}
+
+hr {
+    width: 780px;
+    border: 5px solid orange;
+}
+
+#text {
+    text-align: left;
+}
+
+table {
+    padding: 0 20px;
+}
+h1 {
+    padding-top: 25px;
+}
+caption {
+    caption-side: bottom;
+    letter-spacing: 0.2em; 
+    text-shadow: 1px 1px 5px orange;
+    font-weight: bold;
+}

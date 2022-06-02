@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 프로그래밍 과제</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="http://kakao.com/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/platform.css">
+</head>
+<body>
+    <a href="./main.html"><img src="./photo/메인버튼.png" class="logo"></a>
+    <div class="sub-frame">
+        <h1>KaKao PlatForm</h1>
+        <hr>
+        <div id="frame">
+            <ul>
+                <li>카카오톡</li>
+                <p>카카오톡, 카카오톡 채널, 카카오 이모티콘, 카카오메일, 카카오톡 지갑, 카카오톡 주문하기, 카카오구독ON, 카카오콘</p>
+                <li>커뮤니케이션</li>
+                <p>다음, 다음 카페, 다음 블로그, 티스토리, 브런치, 카카오스토리</p>
+                <li>라이프</li>
+                <p>카카오뱅크, 카카오페이, 카카오 T, 카카오맵, 카카오내비, 카카오헤어샵, 헤이카카오, 카카오게임, 카카오키즈</p>
+                <li>커머스</li>
+                <p>쇼핑하우, 카카오메이커스, 카카오톡 선물하기, 카카오톡 쇼핑하기, 카카오 쇼핑라이브</p>
+                <li>엔터테인먼트</li>
+                <p>카카오페이지, 카카오웹툰, 멜론, 카카오TV, 카카오프렌즈, 니니즈, 픽코마</p>
+                <li>비즈니스</li>
+                <p>카카오워크, 아지트, 카카오비즈니스, 카카오 i커넥트</p>
+                <li>AI/블록체인</li>
+                <p>카카오 i클라우드, 클립</p>
+                <li>소셜임팩트</li>
+                <p>카카오같이가치, 카카오프로젝트100</p>
+            </ul>
+        </div>
+        <button id="btn" onclick="js:calculator()">대표 플랫폼 이미지 보기</button>
+        <!-- 로딩 -->
+        <div id="result_loading">
+            <div id="img_wrap">
+                <img src="./photo/loading.png" alt="로딩 중">
+                <p style="font-weight: bold; font-size: 15;">로딩중...</p>
+            </div>
+        </div>
+        <!-- 결과창 -->
+        <div id="p_table">
+            <table border="1">
+                <tr>
+                    <th colspan="4" style="background-color: #FEE500;">카카오 대표 플랫폼</th>
+                </tr>
+                <tr>
+                    <td id="t_title">카카오톡</td>
+                    <td id="t_title">커뮤니케이션</td>
+                    <td id="t_title">라이프</td>
+                    <td id="t_title">커머스</td>
+                </tr>
+                <tr>
+                    <td><img src="./photo/테이블/카카오톡.jpg" alt=""><figcaption>카카오톡</figcaption></td>
+                    <td><img src="./photo/테이블/다음.jpg" alt=""><figcaption>Daum (다음)</figcaption></td>
+                    <td><img src="./photo/테이블/카카오뱅크.png" alt=""><figcaption>카카오 뱅크</figcaption></td>
+                    <td><img src="./photo/테이블/카카오선물하기.png" alt=""><figcaption>카카오 선물하기</figcaption></td>
+                </tr>
+                <tr>
+                    <td id="t_title">엔터테인먼트</td>
+                    <td id="t_title">비즈니스</td>
+                    <td id="t_title">AI/블록체인</td>
+                    <td id="t_title">소셜임팩트</td>
+                </tr>
+                <tr>
+                    <td><img src="./photo/테이블/카카오웹툰.jpg" alt=""><figcaption>카카오 웹툰</figcaption></td>
+                    <td><img src="./photo/테이블/카카오워크.png" alt=""><figcaption>카카오 워크</figcaption></td>
+                    <td><img src="./photo/테이블/카카오i.jpeg" alt=""><figcaption>카카오 i 클라우드</figcaption></td>
+                    <td><img src="photo/테이블/카카오같이가치.png" alt=""><figcaption>카카오 같이가치</figcaption></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <img src="./photo/카피라이트.png" class="copyright">
+    </footer>
+    <script type="text/javascript" src="js/platform.js"></script>
+</body>
+</html>

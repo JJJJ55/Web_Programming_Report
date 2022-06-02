@@ -1,0 +1,137 @@
+@import url();
+
+@font-face {
+    font-family: "카카오";
+    src: url(../font/KakaoRegular.ttf);
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+*{
+    font-family: "카카오";
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    background-image: url("../photo/카카오 배경화면3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-top: 25px;
+    width: 280px;
+    height: 110px;
+}
+
+.sub-frame {
+    width: 850px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin: -20px auto 0px;
+    padding-bottom: 10px;
+}
+
+#sub_image {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    transition: width 2s;
+}
+
+.copyright {
+    margin-top: 20px;
+    width: 500px;
+}
+
+h1 {
+    padding-top: 25px; 
+}
+
+hr {
+    width: 780px;
+    border: 5px solid orange;
+}
+
+#frame{
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+ul {
+    text-align: left;
+}
+li {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: -15px;
+}
+#btn {
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #FEE500;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: orange;
+}
+
+/* 결과 로딩 */
+#result_loading {
+    display: none;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#result_loading #img_wrap {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#result_loading #img_wrap img {
+    width: 100%;
+    height: auto;
+    animation: rotate 0.5s infinite linear;
+}
+/* 여기까지 */
+
+#p_table {
+    display: none;
+    margin-top: 20px;
+}
+table {
+    margin: 0 auto;
+}
+td img{
+    width: 200px;
+    height: 200px;
+}
+figcaption {
+    font-weight: bold;
+}
+
+#t_title {
+    background-color: orange;
+}

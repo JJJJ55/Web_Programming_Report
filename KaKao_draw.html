@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 프로그래밍 과제</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="http://kakao.com/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/etc.css">
+</head>
+<body onload="js:init()">
+    <a href="./main.html"><img src="./photo/메인버튼.png" class="logo"></a>
+    <div class="sub-frame">
+        <h1>우리 카카오 프렌즈들을 그려주세요!</h1>
+        <hr>
+        <canvas id="myCanvas" style="background: aliceblue"
+                width="800" height="400"></canvas><br>
+        <div id="bin">
+            <label>선굵기 : <input type="text" id="lineWidth" size="5"></label> 
+            <label>선 색 : <input type="color" id="color"></label>
+            <button onclick="clearCanvas()">지우기</button>
+        </div>
+        
+    </div>
+    
+    <footer>
+        <img src="./photo/카피라이트.png" class="copyright">
+    </footer>
+    <script src="./js/draw.js" charset="utf-8"></script>
+</body>
+</html>

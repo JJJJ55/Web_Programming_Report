@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 프로그래밍 과제</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="http://kakao.com/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/intro.css">
+    <script>
+        function up(){
+            var a = document.getElementById("sub_image");
+            a.style.width = "300px";
+        }
+        function down(){
+            var a = document.getElementById("sub_image");
+            a.style.width = "200px";
+        }
+    </script>
+</head>
+<body>
+    <a href="./main.html"><img src="./photo/메인버튼.png" class="logo"></a>
+    <div class="sub-frame">
+        <h1>KaKao</h1>
+        <hr>
+        <table>
+            <caption>사진에 마우스를 올리면 확대됩니다.</caption>
+            <tr>
+                <td rowspan="2">
+                    <img src="./photo/카카오 돌하르방.jpg" id="sub_image" onmouseenter="up()" onmouseleave="down()">
+                    <figcaption>제주본사 앞 돌하르방</figcaption>
+                </td>
+                <td><p id="text">카카오는 다양한 모바일 및 인터넷 서비스를 제공하는 <span >IT 기업</span>이다.</p>
+                    <p id="text">2022년 기준으로 재계서열 12위이며, 2021년 6월 국내 시가총액 3위에 머물렀다가 7월부터 9월 현재까지 4~6위를 오르내리고 있다.
+                    자회사로는 카카오게임즈, 카카오뱅크, 카카오페이, 카카오엔터테인먼트, 카카오모빌리티 등이 있다.</p></td>
+            </tr>
+            <tr>
+                <td>
+                    <table id="ceo">
+                    <tr>
+                        <th colspan="3" style="background-color: #FEE500;">카카오의 역대 CEO</th>
+                    </tr>
+                    <tr>
+                        <td>이제범</td>
+                        <td>2006.11 ~ 2011.11</td>
+                        <td>단독</td>
+                    </tr>
+                    <tr>
+                        <td>이제범 & 이석우</td>
+                        <td>2011.11 ~ 2014.09</td>
+                        <td>공동</td>
+                    </tr>
+                    <tr>
+                        <td>이석우 & 최세훈</td>
+                        <td>2014.10 ~ 2015.09</td>
+                        <td>공동</td>
+                    </tr>
+                    <tr>
+                        <td>임지훈</td>
+                        <td>2015.09 ~ 2018.03</td>
+                        <td>단독</td>
+                    </tr>
+                    <tr>
+                        <td>여민수 & 조수용</td>
+                        <td>2018.03 ~ 2022.02</td>
+                        <td>공동</td>
+                    </tr>
+                    <tr>
+                        <td>남궁훈</td>
+                        <td>2022.03 ~ </td>
+                        <td>단독</td>
+                    </tr>
+                </table></td>
+            </tr>
+        </table> 
+    </div>
+    
+    <footer>
+        <img src="./photo/카피라이트.png" class="copyright">
+    </footer>
+    
+</body>
+</html>

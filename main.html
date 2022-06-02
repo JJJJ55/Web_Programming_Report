@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 프로그래밍 과제</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="http://kakao.com/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="mk.kakaocdn.net/dn/together/fonts/kakao/KakaoRegular.woff2"> -->
+</head>
+<body>
+    <div id="top_frame">
+        <img src="./photo/카카오 title.png" class="logo" title="(주) 카카오">
+        <form action="http://search.daum.net/search" method="get" target="_blank" id="s_box">
+            <input id="search" name="q" type="text" maxlength="256" placeholder="다음으로 검색!" autocomplete="off">
+            <button id="s_btn">검 색</button>
+        </form>
+        
+        <div id="time_box">
+            <script>
+                var time = new Date();
+                var hour = time.getHours();
+                var min = time.getMinutes();
+                var a = document.write("최초 접속시간 : "+hour+"시 "+min+"분");
+            </script>
+        </div>
+    </div>
+    <div class="sub-frame">
+        <div class="imsi-left">
+            <div>
+                <p class="imsi-title">웹 프로그래밍</p>
+                <p class="imsi-title">for KaKao</p>
+            </div>
+            <div class="imsi-left-content-frame">
+                <ul>
+                    <li><p class="imsi-category" style="margin-top: 30px;">프로젝트<span class="point">기간</span></p></li>
+                    <p class="imsi-text">2022년 5월 4일부터 6월 7일까지</p>
+                    <li><p class="imsi-category">프로젝트<span class="point">내용</span></p></li>
+                    <p class="imsi-text">웹프로그래밍 최종 과제물</p>
+                    <li><p class="imsi-category">프로젝트<span class="point">대상</span></li>
+                    <p class="imsi-text">(주) 카카오</p>
+                    <li><p class="imsi-category"><span class="point">문의</span>사항</p></li>
+                    <p class="imsi-text">개발자 : <span id="strong">Jin_Y</span></p>
+                    <li><p class="imsi-category"><span class="point">안내</span>사항</p></li>
+                    <span id="strong">해당 페이지는 상업용 목적으로 제작되지 않았습니다.</span>
+                </ul>
+            </div>
+        </div>
+        <div class="imsi-right">
+            <iframe width="390" height="250" src="https://www.youtube.com/embed/Gh_gxm0eloU" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+            <a href="./kakao_intro.html"><div class="imsi-button">KaKao_Introduce</div></a>
+            <a href="./kakao_platform.html"><div class="imsi-button">KaKao_Platform</div></a>
+            <a href="./kakao_history.html"><div class="imsi-button">KaKao_History</div></a>
+            <a href="./KaKao_draw.html"><div class="imsi-button">KaKao_Drawing</div></a>
+            <a href="https://github.com/JJJJ55" target="_blank"><div class="imsi-button">GitHub_Link</div></a>
+        </div>
+    </div>
+    
+    <footer>
+        <img src="./photo/카피라이트.png" class="copyright">
+    </footer>
+    
+</body>
+</html>
